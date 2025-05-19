@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to my sample page</h1>
+    </header>
+    <section>
+        <h2>Roman numeral list</h2>
+        <ol tyepe="I">
+       <li>First Item</li>
+       <li>Second Item</li>
+       <li>Third Item</li>
+       <li>Fourth Item</li>
+       <li>Fifth Item</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Sample Image from Pexels" width="500">
+    </section>
+    <section>
+        <section>
+            <h2>Contact List</h2>
+            <table border="1" cellpadding="8">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Address</th>
+                  <th>Mobile</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ken Mambo</td>
+                  <td>123 Main St</td>
+                  <td>0712345678</td>
+                  <td>ken@345.com</td>
+                </tr>
+                <tr>
+                  <td>Jane Wairimu</td>
+                  <td>456 Park Ave</td>
+                  <td>0723456789</td>
+                  <td>jane@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Ali Mwangi</td>
+                  <td>789 Riverside Dr</td>
+                  <td>0734567890</td>
+                  <td>alim@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Grace Njeri</td>
+                  <td>101 Hilltop Rd</td>
+                  <td>0745678901</td>
+                  <td>grace@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>David Kimani</td>
+                  <td>202 Downtown St</td>
+                  <td>0756789012</td>
+                  <td>david@gmail.com</td>
+                </tr>
+              </tbody>
+            </table>
+    </section>
+    <section>
+        <h2>User Registration</h2>
+        <form action="#" method="post">
+          <!-- Name Field -->
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+    
+          <!-- Email Field -->
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+    
+          <!-- Password Field -->
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+    
+          <!-- Date Field -->
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" name="dob" required><br><br>
+    
+          <!-- Dropdown -->
+          <label for="country">Select Country:</label><br>
+          <select id="country" name="country" required>
+            <option value="">--Choose--</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="burundi">Burundi</option>
+            <option value="sudan">Sudan</option>
+            <option value="ethopia">Ethopia</option>
+          </select><br><br>
+           <!-- Radio Buttons -->
+    <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+       <!-- Checkboxes -->
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding">
+      <label for="coding">Coding</label><br>
+
+      <input type="checkbox" id="music" name="interests" value="music">
+      <label for="music">Music</label><br>
+
+      <input type="checkbox" id="sports" name="interests" value="sports">
+      <label for="sports">Sports</label><br><br>
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sample Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
