@@ -1,0 +1,47 @@
+/* Apply a modern font and background color to the whole page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Style the header using an ID selector */
+#main-header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #0056b3;
+}
+
+/* Style for paragraphs using a class selector */
+.intro-text {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style an image using a class selector */
+.styled-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Style the footer with an element selector */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: #eee;
+  margin-top: 40px;
+}
